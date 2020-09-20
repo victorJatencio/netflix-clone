@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 20px 40px;
+  z-index: 1;
+  transition: all 0.3s ease-in;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__elements {
+  max-width: 1300px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__elements img {
+  display: block;
+  position: relative;
+}
+
+.nav__logo {
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  width: 30px;
+  object-fit: contain;
+}
